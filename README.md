@@ -6,20 +6,17 @@ I build web products from the first user workflow through data modelling, API de
 
 ## Selected engineering work
 
-| Project | What I built and the problem it solved |
+| Project | Description |
 | --- | --- |
-| [CivicWatch](https://github.com/bhargavkalita47/civicwatch) · [Live Worker](https://civicwatch.bhargavkalita1327.workers.dev/) | Took civic issue reporting from a browser prototype to a Cloudflare Worker and Supabase pilot. Moved archive-sized browsing to database summaries and paged APIs, and repaired production authentication and incomplete address lookup. |
-| [Shikshak](https://github.com/Bhargav-shikshak/shikshak) · [Official site](https://shikshak.co.in/) · [Live Worker](https://shikshak.shikshak-as-classes.workers.dev/) | Reworked tutor matching into booking requests and participant-scoped classrooms. Migrated the maps to MapLibre and used the Atlas style compiler to reproduce Pastel City. Added Chromium coverage for map startup and theme application. |
-| [Recruider](https://github.com/bhargavkalita47/Recruider-MVP) | Founded a skills-first hiring project and evolved it from a [Node.js and SQLite prototype](https://github.com/bhargavkalita47/Recruider-prototype) into a React and Supabase MVP with job-specific matching and retry-safe private chat. |
-| [AccessDesk](https://github.com/bhargavkalita47/AccessDesk) · [Live Worker](https://nodal-access.bhargavkalita1327.workers.dev/) | Built an interactive multi-tenant access demo with organization switching, role-based permissions, simulated invitations and workspace activity. |
-| [Dockline](https://github.com/bhargavkalita47/dockline) · [Live Worker](https://dockline.bhargavkalita1327.workers.dev/) | Modelled warehouse inventory from receiving through shipping, including reservations, shelf-capacity checks and transfers that post stock to the destination on receipt. |
-| [Minimal PDF](https://github.com/bhargavkalita47/minimal-pdf) · [Android APK](https://github.com/bhargavkalita47/minimal-pdf/releases/latest) | Built an offline Android PDF reader and page organiser. Kept text and vector content intact during page exports and fixed toolbar transitions that obscured or shifted the document. |
+| [CivicWatch](https://github.com/bhargavkalita47/civicwatch) · [Live Worker](https://civicwatch.bhargavkalita1327.workers.dev/) | A community platform for reporting neighbourhood infrastructure issues, sharing photo evidence and tracking resolutions on a map. |
+| [Shikshak](https://github.com/Bhargav-shikshak/shikshak) · [Official site](https://shikshak.co.in/) · [Live Worker](https://shikshak.shikshak-as-classes.workers.dev/) | A home tutoring platform where students find nearby tutors, request lessons and access private classrooms. |
+| [Atlas](https://github.com/bhargavkalita47/Atlas) · [Atlas Lab](https://atlas.bhargavkalita1327.workers.dev/) | A reusable mapping toolkit with an interactive lab for designing, previewing and exporting map themes. |
+| [Recruider](https://github.com/bhargavkalita47/Recruider-MVP) · [Prototype](https://github.com/bhargavkalita47/Recruider-prototype) | A skills-first hiring platform where candidates showcase their work through portfolios and challenges, and recruiters discover and connect with talent. |
+| [AccessDesk](https://github.com/bhargavkalita47/AccessDesk) · [Live Worker](https://nodal-access.bhargavkalita1327.workers.dev/) | An interactive demo for managing organizations, member roles, invitations and access permissions. |
+| [Dockline](https://github.com/bhargavkalita47/dockline) · [Live Worker](https://dockline.bhargavkalita1327.workers.dev/) | A warehouse operations demo for tracking stock, managing orders and transferring inventory between warehouses. |
+| [Minimal PDF](https://github.com/bhargavkalita47/minimal-pdf) · [Android APK](https://github.com/bhargavkalita47/minimal-pdf/releases/latest) | An offline Android PDF reader and page organiser with search, bookmarks, page reordering and range extraction. |
 
-**Atlas mapping toolkit** · [Live Atlas Lab](https://atlas.bhargavkalita1327.workers.dev/)
-
-Extracted reusable geocoding, renderers and cartography into a TypeScript toolkit. Splitting the renderers reduced minified initial application JavaScript from 1,503 kB to 269 kB in recorded builds. Shikshak’s [Atlas integration](https://github.com/Bhargav-shikshak/shikshak/blob/main/docs/ATLAS_MAPLIBRE.md) shows the theme compiler in use.
-
-**Blender for Web.** Investigating how to run Blender’s modelling code in a browser. The [engineering log](https://github.com/bhargavkalita47/blender/blob/blender-for-web/doc/blender-for-web/README.md) covers the dependency audit, isolated BMesh WebAssembly tests and source-pinned native geometry comparisons.
+[Blender for Web](https://github.com/bhargavkalita47/blender/blob/blender-for-web/doc/blender-for-web/README.md) is a research project exploring Blender-based 3D modelling in the browser.
 
 ## Background
 
