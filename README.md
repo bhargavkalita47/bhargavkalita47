@@ -1,25 +1,26 @@
 # Bhargav Kalita
 
-**Full-stack product engineer · Founder of Recruider · 3D and visual design background**
+**Full-stack product engineer · Founder of Recruider**
 
-I build web products from the first workflow sketch through data modelling, APIs, permissions, testing and deployment. I’m interested in product engineering and forward-deployed engineering roles where I can work closely with users and own the implementation.
+I build web products from the first user workflow through data modelling, API design, permissions, testing and deployment. I’m interested in product engineering and forward-deployed engineering roles that combine hands-on implementation with direct work with users.
 
-## How I got here
+## Selected engineering work
 
-- **Programming and science.** I started as a self-taught programmer, studied Physics, and continued into Computer Applications.
-- **3D production and design.** I spent more than five years working in 3D and contributed to anamorphic displays and product animations for brands including Google, BMW and Kia. I went on to lead design work at Crafty Fashions.
-- **Product engineering.** I founded Recruider to make work samples and challenges part of hiring. I then built and deployed map-based products, worked through real authentication and deployment failures, and extracted reusable mapping capabilities into Atlas.
-
-## Selected work
-
-| Project | What I built |
+| Project | What I built and the problem it solved |
 | --- | --- |
-| [CivicWatch](https://github.com/bhargavkalita47/civicwatch) · [Live pilot](https://civicwatch.bhargavkalita1327.workers.dev/) | Neighbourhood infrastructure reporting with photo evidence, discussion and resolution tracking. Took it from a browser-backed prototype to a Cloudflare Worker and Supabase pilot with moderation, paginated reports and more resilient place lookup. |
-| [Shikshak](https://github.com/Bhargav-shikshak/shikshak) · [Website](https://shikshak.co.in/) | A tutoring platform that evolved from mutual matching to student-initiated bookings. Accepted requests open a classroom with chat, scheduling and private PDF resources. |
-| Atlas | A reusable TypeScript mapping toolkit and visual style studio. Split the map renderers out of the initial application bundle, reducing minified initial JavaScript from about 1,503 kB to 269 kB in the measured builds. The vector renderer, worker and tiles load separately. |
-| [Recruider](https://github.com/bhargavkalita47/Recruider-MVP) | Skills-first hiring with candidate portfolios, challenges, job-specific matching and private chat. Progressed from a [Node.js and SQLite prototype](https://github.com/bhargavkalita47/Recruider-prototype) to a React and Supabase MVP. |
-| [Dockline](https://github.com/bhargavkalita47/dockline) | A multi-warehouse operations demo that tracks stock through receiving, putaway, reservation, picking, packing and shipping. Its domain engine also handles transfers between sites. |
+| [CivicWatch](https://github.com/bhargavkalita47/civicwatch) · [Live pilot](https://civicwatch.bhargavkalita1327.workers.dev/) | Took civic issue reporting from a browser prototype to a Cloudflare Worker and Supabase pilot. Moved archive-sized browsing to database summaries and paged APIs, and repaired production authentication and incomplete address lookup. |
+| [Shikshak](https://github.com/Bhargav-shikshak/shikshak) · [Live pilot](https://shikshak.co.in/) | Reworked tutor matching into booking requests and participant-scoped classrooms. Migrated the maps to MapLibre and used the Atlas style compiler to reproduce Pastel City. Added Chromium coverage for map startup and theme application. |
+| [Recruider](https://github.com/bhargavkalita47/Recruider-MVP) | Founded a skills-first hiring project and evolved it from a [Node.js and SQLite prototype](https://github.com/bhargavkalita47/Recruider-prototype) into a React and Supabase MVP with job-specific matching and retry-safe private chat. |
+| [Common Identity Platform](https://github.com/bhargavkalita47/common-identity-platform) | Built a multi-tenant authorization project with organization-scoped membership, PostgreSQL row-level security and password setup tied to the verified invitation recipient. |
+| [Dockline](https://github.com/bhargavkalita47/dockline) | Modelled warehouse inventory from receiving through shipping, including reservations, shelf-capacity checks and transfers that post stock to the destination on receipt. |
+| [Minimal PDF](https://github.com/bhargavkalita47/minimal-pdf) · [Android APK](https://github.com/bhargavkalita47/minimal-pdf/releases/latest) | Built an offline Android PDF reader and page organiser. Kept text and vector content intact during page exports and fixed toolbar transitions that obscured or shifted the document. |
 
-I also built [Pantry](https://github.com/bhargavkalita47/Pantry) and [Mise](https://github.com/bhargavkalita47/mise-restaurant) to explore recipe-driven inventory, [Common](https://github.com/bhargavkalita47/common-identity-platform) and [Nodal](https://github.com/bhargavkalita47/nodal-access) to explore tenant-scoped access, and [TradeLedger](https://github.com/bhargavkalita47/trading-journal) for paper trading and capital tracking.
+**Atlas mapping toolkit.** Extracted reusable geocoding, renderers and cartography into a TypeScript toolkit. Splitting the renderers reduced minified initial application JavaScript from 1,503 kB to 269 kB in recorded builds. Shikshak’s [Atlas integration](https://github.com/Bhargav-shikshak/shikshak/blob/main/docs/ATLAS_MAPLIBRE.md) shows the theme compiler in use.
 
-**Tools I use** · React, TypeScript, Node.js, Python, PostgreSQL, Supabase, Cloudflare Workers, Leaflet, MapLibre, Figma.
+## Background
+
+I started programming independently, studied physics and computer applications, and spent over five years in 3D production. My work included anamorphic displays and product animations for Google, BMW and Kia. I went on to lead design at Crafty Fashions and founded Recruider to give candidates a way to show their work before an interview.
+
+**Engineering tools** · TypeScript, React, Node.js, Python, PostgreSQL, Supabase, Cloudflare Workers, MapLibre, Vitest and Playwright.
+
+**More projects** · [Pantry](https://github.com/bhargavkalita47/Pantry) and [Mise](https://github.com/bhargavkalita47/mise-restaurant) for recipe-based inventory, [Nodal](https://github.com/bhargavkalita47/nodal-access) for access-control workflows, and [TradeLedger](https://github.com/bhargavkalita47/trading-journal) for paper-trading accounting.
