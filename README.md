@@ -17,6 +17,8 @@ I build web products from the first user workflow through data modelling, API de
 
 **Atlas mapping toolkit.** Extracted reusable geocoding, renderers and cartography into a TypeScript toolkit. Splitting the renderers reduced minified initial application JavaScript from 1,503 kB to 269 kB in recorded builds. Shikshak’s [Atlas integration](https://github.com/Bhargav-shikshak/shikshak/blob/main/docs/ATLAS_MAPLIBRE.md) shows the theme compiler in use.
 
+**Blender for Web.** Investigating how to run Blender’s modelling code in a browser. The [engineering log](https://github.com/bhargavkalita47/blender/blob/blender-for-web/doc/blender-for-web/README.md) covers the dependency audit, isolated BMesh WebAssembly tests and source-pinned native geometry comparisons.
+
 ## Background
 
 I started programming independently, studied physics and computer applications, and spent over five years in 3D production. My work included anamorphic displays and product animations for Google, BMW and Kia. I went on to lead design at Crafty Fashions and founded Recruider to give candidates a way to show their work before an interview.
